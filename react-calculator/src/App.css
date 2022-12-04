@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.display {
+    overflow: hidden;
+    padding: 10px;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: right;
+    border: 2px solid black;
+    font-weight: 400;
+    color: #0091E7;
+}
+
+.calculator {
+    margin: 0 auto;
+    width: 270px;
+    margin-top: 130px;
+    border: 2px solid black;
+   
+}
+
+.buttons {
+  margin: 6px;
+}
+.operators button {
+  padding: 17px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 3.4px;
+  background-color: whitesmoke;
+  border: 0px solid white;
+  font-weight: 700;
+  font-family:  bold 20px Arial, sans-serif;
+  cursor: pointer;  
+  
+}
+
+.digits button {
+  background-color: whitesmoke;
+  border: 0px solid white;
+  font-family:  bold 20px Arial, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 75px;
+  padding: 16px;
+  margin: 5px;
+  cursor: pointer;
+}

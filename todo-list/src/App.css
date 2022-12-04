@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app-wrapper {
+    min-width: 450px;
+    min-height: 650px;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header h1 {
+    text-align: center;
+}
+
+input{
+    padding: 6px;
+    font-size: 14px;
+}
+
+button{
+    padding: 6px;
+    font-size: 14px;
+}
+
+
+form {
+    text-align: center;
+    
+
+}
+.list-item {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+
+    
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
